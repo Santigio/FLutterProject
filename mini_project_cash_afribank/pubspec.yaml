@@ -1,0 +1,38 @@
+name: athos_s_application
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.1.4
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.0
+  connectivity_plus: ^1.4.0
+  shared_preferences: ^2.0.7
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+  pin_code_fields: ^7.3.0
+  sms_autofill: ^2.0.0
+  smooth_page_indicator: ^1.0.0+2
+  carousel_slider: ^4.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/montserratbold700.ttf
+          weight: 700
+        - asset: assets/fonts/montserratregular400.ttf
+          weight: 400
+    - family: Sanchez
+      fonts: 
+        - asset: assets/fonts/sanchezregular400.ttf
+          weight: 400
